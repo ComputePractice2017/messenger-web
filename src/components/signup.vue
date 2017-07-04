@@ -3,9 +3,9 @@
         {{signup}}
         <form class="form-horizontal" role="form"> 
 <div class="form-group"> 
-<label for="inputEmail3" class="col-sm-2 control-label">Email</label> 
+<label for="inputEmail3" class="col-sm-2 control-label">Логин</label> 
 <div class="col-sm-10"> 
-<input type="email" class="form-control" id="inputEmail3" placeholder="Email"> 
+<input type="Login" class="form-control" id="inputEmail3" placeholder="Login"> 
 </div> 
 </div> 
 <div class="form-group"> 
@@ -34,24 +34,7 @@
 
 </template>
 
-<script>
-export default {
-  name: 'hello',
-  data () {
-    return {
-      signup:
-      [
-        {
-          'Login': ' ',
-          'Name': ' ',
-          'Password': ' '
-        }
 
-      ]
-    }
-  }
-}
-</script>
 
 <style>
 
