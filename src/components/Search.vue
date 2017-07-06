@@ -1,5 +1,5 @@
 <template>
-    <div class="signup">
+    <div class="Search">
         <div class="container">
             <form class="form-inline">
                 <label class="sr-only" for="inlineFormInput">Name</label>
